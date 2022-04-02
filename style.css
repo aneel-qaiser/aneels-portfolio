@@ -1,0 +1,113 @@
+/* assigns a black container on the top of page */
+body{
+  background: #bbbdc4;
+  margin: 0;
+}
+
+header {
+  height: 124px;
+  margin: 0px 0 0 0;
+  background-color: black;
+}  
+img {
+  width: 150px;
+  margin: auto;
+  float: right;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+/* Smoothes image corner edges */
+.image-circle {
+    border-radius: 10%; 
+}
+
+h1 {
+  margin: 0 0 0 -35px;
+  font-family: "Barbecue Personal Use";
+  padding:30px 0px 0px 0px;
+ color: #bbbdc4;
+   text-shadow: 0px 0px 12px #000;
+  
+}
+h2 {
+  margin: -40px 0 0 40px;
+  font-size: 40px;
+  font-family: "Futura";
+  letter-spacing: 3px;
+  padding: 0px 30px 0px 50px;
+ color: #bbbdc4;
+   text-shadow: 0px 0px 12px #000;
+  
+}
+h3 {
+   width: 400px;
+  font-size: 25px;
+  font-family: Futura;
+  color: #000000;
+  padding:0px 0px 0px 45px;
+  }
+ 
+/* adds a horizontal ruler, used for decoration in this case */
+hr {
+  height: 8px;
+   background-color: #000000;
+  width: 367px;
+  margin: -20px 0 10px 45px;
+ }
+
+/* class tool used to increase width of hr */
+.longer-width {
+  width: 560px;
+}
+
+p {
+  font-family: Futura, sans-serif;
+  color: #000000;
+  margin: 5px 0 0 45px;
+}
+li {
+  font-family: Futura, sans-serif;
+  color: #000000;
+  margin: 5px 0 0 45px;
+}
+
+footer {
+  margin: 25px 0 0 0;
+  padding: 5px 0 0 0px;
+  height: 60px;
+  background-color: black;
+}  
+.text {
+  color: #bbbdc4;
+}
+
+/* these buttons provide decorative styling to  LinkedIn and Github boxes */
+.btn {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.btn-default {
+  color: #333;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/* link to call*/ 
+a[href^="tel:"] {
+    color: blue;
+}
+/* before a link is visited its color is blue, it changes to purple when you hover over it, turns pink when pressed upon and turns red once visited */
+a:link    { color: blue;  }
+a:visited { color: #9b0808;   }
+a:hover   { color: #f000f0; }
+a:active  { color: pink;  }
